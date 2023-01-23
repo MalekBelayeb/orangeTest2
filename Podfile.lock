@@ -1,0 +1,20 @@
+PODS:
+  - DropDown (2.3.13)
+  - TagListView (1.4.1)
+
+DEPENDENCIES:
+  - DropDown
+  - TagListView (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - DropDown
+    - TagListView
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  TagListView: a1c236d17960a0cf64156725a76ce6d73ebce2be
+
+PODFILE CHECKSUM: 2638844177434f9d0812e92a7156303f99752842
+
+COCOAPODS: 1.11.3

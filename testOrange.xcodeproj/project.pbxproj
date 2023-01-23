@@ -7,25 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		359CB894244650CD12902927 /* Pods_testOrange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2874AAAD238B403B6ADE430 /* Pods_testOrange.framework */; };
+		57028522297EB6AF0031BA1A /* wikiDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57028521297EB6AF0031BA1A /* wikiDataViewModel.swift */; };
 		570C1A2B297E893E00F77C7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C1A2A297E893E00F77C7A /* AppDelegate.swift */; };
 		570C1A2D297E893E00F77C7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C1A2C297E893E00F77C7A /* SceneDelegate.swift */; };
-		570C1A2F297E893E00F77C7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C1A2E297E893E00F77C7A /* ViewController.swift */; };
+		570C1A2F297E893E00F77C7A /* MostRecent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C1A2E297E893E00F77C7A /* MostRecent.swift */; };
 		570C1A32297E893E00F77C7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570C1A30297E893E00F77C7A /* Main.storyboard */; };
 		570C1A35297E893E00F77C7A /* testOrange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 570C1A33297E893E00F77C7A /* testOrange.xcdatamodeld */; };
 		570C1A37297E893F00F77C7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570C1A36297E893F00F77C7A /* Assets.xcassets */; };
 		570C1A3A297E893F00F77C7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570C1A38297E893F00F77C7A /* LaunchScreen.storyboard */; };
+		570C1A42297E895100F77C7A /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C1A41297E895100F77C7A /* Favorites.swift */; };
+		570C1A44297E897000F77C7A /* DetailPlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C1A43297E897000F77C7A /* DetailPlace.swift */; };
+		570C1A48297E89E000F77C7A /* WikiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C1A47297E89E000F77C7A /* WikiData.swift */; };
+		570C1A4A297E8A5B00F77C7A /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C1A49297E8A5B00F77C7A /* Place.swift */; };
+		570C1A4C297E8AAA00F77C7A /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C1A4B297E8AAA00F77C7A /* Region.swift */; };
+		570C1A4F297E907400F77C7A /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C1A4E297E907400F77C7A /* APIService.swift */; };
+		570C1A52297E913D00F77C7A /* PlacesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C1A51297E913D00F77C7A /* PlacesViewModel.swift */; };
+		570C1A55297E998900F77C7A /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570C1A54297E998900F77C7A /* Design.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57028521297EB6AF0031BA1A /* wikiDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wikiDataViewModel.swift; sourceTree = "<group>"; };
 		570C1A27297E893E00F77C7A /* testOrange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testOrange.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		570C1A2A297E893E00F77C7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		570C1A2C297E893E00F77C7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		570C1A2E297E893E00F77C7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		570C1A2E297E893E00F77C7A /* MostRecent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostRecent.swift; sourceTree = "<group>"; };
 		570C1A31297E893E00F77C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		570C1A34297E893E00F77C7A /* testOrange.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testOrange.xcdatamodel; sourceTree = "<group>"; };
 		570C1A36297E893F00F77C7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		570C1A39297E893F00F77C7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		570C1A3B297E893F00F77C7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		570C1A41297E895100F77C7A /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
+		570C1A43297E897000F77C7A /* DetailPlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPlace.swift; sourceTree = "<group>"; };
+		570C1A47297E89E000F77C7A /* WikiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiData.swift; sourceTree = "<group>"; };
+		570C1A49297E8A5B00F77C7A /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		570C1A4B297E8AAA00F77C7A /* Region.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Region.swift; sourceTree = "<group>"; };
+		570C1A4E297E907400F77C7A /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		570C1A51297E913D00F77C7A /* PlacesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewModel.swift; sourceTree = "<group>"; };
+		570C1A54297E998900F77C7A /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		8B4258CE0AA446976E4C1A9B /* Pods-testOrange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testOrange.debug.xcconfig"; path = "Target Support Files/Pods-testOrange/Pods-testOrange.debug.xcconfig"; sourceTree = "<group>"; };
+		B2874AAAD238B403B6ADE430 /* Pods_testOrange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testOrange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF36A4B1FE2699FFD62A8CEB /* Pods-testOrange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testOrange.release.xcconfig"; path = "Target Support Files/Pods-testOrange/Pods-testOrange.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359CB894244650CD12902927 /* Pods_testOrange.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,8 @@
 			children = (
 				570C1A29297E893E00F77C7A /* testOrange */,
 				570C1A28297E893E00F77C7A /* Products */,
+				69421D0E500AC92F070DC005 /* Pods */,
+				58D6F19C799FB09472FA6B69 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +83,13 @@
 		570C1A29297E893E00F77C7A /* testOrange */ = {
 			isa = PBXGroup;
 			children = (
+				570C1A53297E998100F77C7A /* Design */,
+				570C1A50297E912900F77C7A /* ViewModel */,
+				570C1A4D297E8CC200F77C7A /* Api Service */,
+				570C1A46297E898000F77C7A /* Model */,
+				570C1A45297E897500F77C7A /* View */,
 				570C1A2A297E893E00F77C7A /* AppDelegate.swift */,
 				570C1A2C297E893E00F77C7A /* SceneDelegate.swift */,
-				570C1A2E297E893E00F77C7A /* ViewController.swift */,
 				570C1A30297E893E00F77C7A /* Main.storyboard */,
 				570C1A36297E893F00F77C7A /* Assets.xcassets */,
 				570C1A38297E893F00F77C7A /* LaunchScreen.storyboard */,
@@ -70,6 +99,68 @@
 			path = testOrange;
 			sourceTree = "<group>";
 		};
+		570C1A45297E897500F77C7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				570C1A2E297E893E00F77C7A /* MostRecent.swift */,
+				570C1A43297E897000F77C7A /* DetailPlace.swift */,
+				570C1A41297E895100F77C7A /* Favorites.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		570C1A46297E898000F77C7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				570C1A47297E89E000F77C7A /* WikiData.swift */,
+				570C1A49297E8A5B00F77C7A /* Place.swift */,
+				570C1A4B297E8AAA00F77C7A /* Region.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		570C1A4D297E8CC200F77C7A /* Api Service */ = {
+			isa = PBXGroup;
+			children = (
+				570C1A4E297E907400F77C7A /* APIService.swift */,
+			);
+			path = "Api Service";
+			sourceTree = "<group>";
+		};
+		570C1A50297E912900F77C7A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				570C1A51297E913D00F77C7A /* PlacesViewModel.swift */,
+				57028521297EB6AF0031BA1A /* wikiDataViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		570C1A53297E998100F77C7A /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				570C1A54297E998900F77C7A /* Design.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		58D6F19C799FB09472FA6B69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2874AAAD238B403B6ADE430 /* Pods_testOrange.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69421D0E500AC92F070DC005 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B4258CE0AA446976E4C1A9B /* Pods-testOrange.debug.xcconfig */,
+				CF36A4B1FE2699FFD62A8CEB /* Pods-testOrange.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 570C1A3E297E893F00F77C7A /* Build configuration list for PBXNativeTarget "testOrange" */;
 			buildPhases = (
+				90E1182E11F4FB009B9FF189 /* [CP] Check Pods Manifest.lock */,
 				570C1A23297E893E00F77C7A /* Sources */,
 				570C1A24297E893E00F77C7A /* Frameworks */,
 				570C1A25297E893E00F77C7A /* Resources */,
+				6EA6A81BDE3C62EE94CB704A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,14 +229,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6EA6A81BDE3C62EE94CB704A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testOrange/Pods-testOrange-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testOrange/Pods-testOrange-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testOrange/Pods-testOrange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E1182E11F4FB009B9FF189 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testOrange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		570C1A23297E893E00F77C7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				570C1A2F297E893E00F77C7A /* ViewController.swift in Sources */,
+				570C1A4C297E8AAA00F77C7A /* Region.swift in Sources */,
+				570C1A2F297E893E00F77C7A /* MostRecent.swift in Sources */,
 				570C1A2B297E893E00F77C7A /* AppDelegate.swift in Sources */,
+				570C1A44297E897000F77C7A /* DetailPlace.swift in Sources */,
+				57028522297EB6AF0031BA1A /* wikiDataViewModel.swift in Sources */,
+				570C1A4A297E8A5B00F77C7A /* Place.swift in Sources */,
 				570C1A2D297E893E00F77C7A /* SceneDelegate.swift in Sources */,
+				570C1A52297E913D00F77C7A /* PlacesViewModel.swift in Sources */,
+				570C1A48297E89E000F77C7A /* WikiData.swift in Sources */,
+				570C1A4F297E907400F77C7A /* APIService.swift in Sources */,
+				570C1A55297E998900F77C7A /* Design.swift in Sources */,
+				570C1A42297E895100F77C7A /* Favorites.swift in Sources */,
 				570C1A35297E893E00F77C7A /* testOrange.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +430,7 @@
 		};
 		570C1A3F297E893F00F77C7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B4258CE0AA446976E4C1A9B /* Pods-testOrange.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +459,7 @@
 		};
 		570C1A40297E893F00F77C7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF36A4B1FE2699FFD62A8CEB /* Pods-testOrange.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

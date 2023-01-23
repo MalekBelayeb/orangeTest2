@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Region: Codable {
+    let name, country: String
+    let lat, lon: Double
+    let population: Int
+    let timezone, status: String
+}
